@@ -107,8 +107,8 @@ footer {
 }
 
 #music {
-      height: 300px;
-      width: 300px;
+      height: 0px;
+      width: 0px;
       opacity: 1;
 }
 
