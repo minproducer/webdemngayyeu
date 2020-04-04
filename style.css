@@ -1,5 +1,5 @@
 html, body {
-      background-color: #f6f6f6;
+      background-color: #f6f6f600;
       margin: 0;
       padding: 0;
 }
@@ -109,7 +109,7 @@ footer {
 #music {
       height: 0px;
       width: 0px;
-      opacity: 0;
+      opacity: 1;
 }
 
 #mask {
