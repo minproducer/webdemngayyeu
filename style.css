@@ -107,10 +107,9 @@ footer {
 }
 
 #music {
-      grid-column: 2;
-      position: relative;
-      z-index: 1000;
-      opacity: 0;
+      height: 300px;
+      width: 300px;
+      opacity: 1;
 }
 
 #mask {

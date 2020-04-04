@@ -1,6 +1,5 @@
 const yourDate = new Date("2019-12-15T12:00:00"),
 music = ['ido', 'noinaycoanh', 'nguoiamphu'];
-
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
 
@@ -18,9 +17,6 @@ document.addEventListener('DOMContentLoaded', function(){
       var timer = setInterval(function(){olock()}, 1000);
       document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
 
-      document.getElementsByTagName("body")[0].insertAdjacentHTML(
-            "beforeend",
-            "<div id='mask'></div>"
-      );
+      
 
 }, false);
