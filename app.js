@@ -17,6 +17,4 @@ document.addEventListener('DOMContentLoaded', function(){
       var timer = setInterval(function(){olock()}, 1000);
       document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
 
-      
-
 }, false);
